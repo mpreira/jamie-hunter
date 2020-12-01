@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /***********************
 ****    GENERAL    *****
 ***********************/
@@ -31,3 +32,38 @@
 @media screen and (max-width:480px){
     
 }
+=======
+/***********************
+****    GENERAL    *****
+***********************/
+
+
+
+/*****************************
+****    CORPS DE PAGE    *****
+*****************************/
+
+/* HEADER */
+
+
+/* MAIN */
+
+
+/* FOOTER */
+
+
+
+/****************************
+****    MEDIA QUERIES   *****
+****************************/
+
+/* tablette */
+@media screen and (min-width:480px) and (max-width:960px){
+    /* css */
+}
+
+/* mobile */
+@media screen and (max-width:480px){
+    
+}
+>>>>>>> 52fa6567d29c2ac943cdb7ba0feb2dac36f688ee
