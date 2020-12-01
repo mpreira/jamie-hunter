@@ -23,6 +23,11 @@
     width:45%;
 }
 
+.image img{
+    max-width:40%;
+    height:auto;
+}
+
 
 /* FOOTER */
 
