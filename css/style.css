@@ -1,1 +1,33 @@
-/* à venir */
+/***********************
+****    GENERAL    *****
+***********************/
+
+
+
+/*****************************
+****    CORPS DE PAGE    *****
+*****************************/
+
+/* HEADER */
+
+
+/* MAIN */
+
+
+/* FOOTER */
+
+
+
+/****************************
+****    MEDIA QUERIES   *****
+****************************/
+
+/* tablette */
+@media screen and (min-width:480px) and (max-width:960px){
+    /* css */
+}
+
+/* mobile */
+@media screen and (max-width:480px){
+    
+}
