@@ -16,6 +16,10 @@ body{
     padding:0;
 }
 
+h1{
+    margin-left:20px;
+}
+
 
 /*****************************
 ****    CORPS DE PAGE    *****
@@ -35,11 +39,13 @@ header nav{
     display:flex;
     align-items:center;
     padding-bottom: 10px;
+    margin-right:20px;
 }
 
 nav a{
     text-decoration:none;
     color:#fdfcfc;
+    padding:0 10px;
 }
 
 /* MAIN */
@@ -57,6 +63,7 @@ nav a{
 
 .comments{
     width:30%;
+    margin:auto;
 }
 
 .image{
