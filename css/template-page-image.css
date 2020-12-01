@@ -1,7 +1,18 @@
 /***********************
 ****    GENERAL    *****
 ***********************/
+*{
+    box-sizing:border-box;
+}
 
+html { font-size: 62.5%; }
+
+
+body{
+    background-color:#fdfcfc;
+    font-size:1.6rem;
+    color:#444;
+}
 
 
 /*****************************
@@ -9,6 +20,7 @@
 *****************************/
 
 /* HEADER */
+
 
 
 /* MAIN */
@@ -44,5 +56,5 @@
 
 /* mobile */
 @media screen and (max-width:480px){
-    
+
 }
