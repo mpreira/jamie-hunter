@@ -12,6 +12,8 @@ body{
     background-color:#fdfcfc;
     font-size:1.6rem;
     color:#444;
+    margin:0;
+    padding:0;
 }
 
 
@@ -21,22 +23,50 @@ body{
 
 /* HEADER */
 
+header{
+    height:100px;
+    background-color:#8eb4c8;
+    color:#fdfcfc;
+    display:flex;
+    justify-content:space-between;
+}
 
+header nav{
+    display:flex;
+    align-items:center;
+    padding-bottom: 10px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#fdfcfc;
+}
 
 /* MAIN */
 .comm-image{
     display:flex;
-    justify-content:center;
+    justify-content:space-between;
+    margin-top:50px;
+    margin-bottom:30px;
 }
 
 .comments, .image{
     margin:0;
     padding:0;
-    width:45%;
+}
+
+.comments{
+    width:30%;
+}
+
+.image{
+    width:50%;
+    display:flex;
+    justify-content:center;
 }
 
 .image img{
-    max-width:40%;
+    max-width:50%;
     height:auto;
 }
 
