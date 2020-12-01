@@ -1,0 +1,43 @@
+/***********************
+****    GENERAL    *****
+***********************/
+
+
+
+/*****************************
+****    CORPS DE PAGE    *****
+*****************************/
+
+/* HEADER */
+
+
+/* MAIN */
+.comm-image{
+    display:flex;
+    justify-content:center;
+}
+
+.comm-image > *{
+    margin:0;
+    padding:0;
+    width:45%;
+}
+
+
+/* FOOTER */
+
+
+
+/****************************
+****    MEDIA QUERIES   *****
+****************************/
+
+/* tablette */
+@media screen and (min-width:480px) and (max-width:960px){
+    /* css */
+}
+
+/* mobile */
+@media screen and (max-width:480px){
+    
+}
