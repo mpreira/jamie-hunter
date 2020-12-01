@@ -85,7 +85,20 @@ nav a{
     position:absolute;
     width:70%;
     bottom:0;
+    overflow:hidden;
 }
+
+/*.slider::after {
+    content: "";
+    position:absolute;
+    margin:-20px;
+    width:40px;
+    height:40px;
+    transform:rotate(-45deg);
+    background-color:#000; /* to see where it is */
+    /*right:-9px;
+    top:-10px;
+}*/
 
 
 /* FOOTER */
