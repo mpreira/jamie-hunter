@@ -107,11 +107,11 @@ main{
 }
 
 .fa-heart {
-    color: black;
+    color: gray;
 }
 
 .liked{
-    color: #B22222;
+    color: #e7cdd2;
 }
 
 /* slider */
