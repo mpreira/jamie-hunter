@@ -80,6 +80,29 @@ nav a{
     height:auto;
 }
 
+/* like button */
+
+.containerLike{
+    position: absolute;
+    right: 20em;
+    top: 10em;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+}
+
+.fa-heart {
+    color: black;
+}
+
+.liked{
+    color: #B22222;
+}
+
 /* slider */
 .slider{
     height:200px;
