@@ -55,12 +55,18 @@ nav a{
 
 #app{
     position:relative;
+    margin:0;
+}
+
+main{
+
+    height: calc(100vh - 100px)
+
 }
 
 .comm-image{
     display:flex;
     justify-content:space-between;
-    margin-top:50px;
     margin-bottom:30px;
 }
 
