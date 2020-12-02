@@ -1,8 +1,11 @@
 import grid from "./grid.js";
+import like from "./like.js";
 
 new Vue({
 
-  el:'#grid',
-  component: { grid },
+  el:'#app',
+  component: { 
+    grid,
+    like,},
   data:{},
 })
