@@ -1,7 +1,7 @@
 export default Vue.component('grid', {
 
   template: `
-  <div>
+  <div class="image-container">
   <img src="img/cactus.jpg" class="img1">
   <img src="img/flamant.jpg" class="img2">
   <img src="img/maison.jpg" class="img3">

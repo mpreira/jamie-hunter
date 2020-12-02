@@ -1,8 +1,16 @@
 import grid from "./grid.js";
+import navbar from "./navbar.js";
 
 new Vue({
 
-  el:'#grid',
-  component: { grid },
-  data:{},
+  el:'#app',
+
+  components: {
+    grid,
+    navbar,
+ },
+
+  data:{
+
+  },
 })
