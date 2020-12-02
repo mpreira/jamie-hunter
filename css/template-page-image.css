@@ -50,6 +50,8 @@ nav a{
 }
 
 /* MAIN */
+
+/* zone centrale */
 .comm-image{
     display:flex;
     justify-content:space-between;
@@ -78,13 +80,26 @@ nav a{
     height:auto;
 }
 
+/* slider */
 .slider{
-    background-color:#e7cdd2;
     height:200px;
     padding:15px;
     position:absolute;
     width:70%;
     bottom:0;
+    overflow:hidden;
+}
+
+.slider::after {
+    content: "";
+    position:absolute;
+    margin:-20px;
+    width:150px;
+    height:150px;
+    transform:rotate(-45deg);
+    right:-55px;
+    top:-57px;
+    box-shadow:0 0 0 1030px #e7cdd2;
 }
 
 
