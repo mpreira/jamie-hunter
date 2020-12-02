@@ -1,8 +1,8 @@
 export default Vue.component('navbar', {
 
     template: `
-    <nav>
-        <a href="index.html">Jamie Hunter</a>
+    <nav class="topnav">
+        
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="#">About</a></li>
