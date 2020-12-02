@@ -15,7 +15,23 @@ new Vue({
     slider,
  },
 
-  data:{
+  data(){
+    
+  return{
+
+    images:[
+      '../img/archi.jpg',
+      '../img/cactus.jpg',
+      '../img/car.jpg',
+      '../img/flamant.jpg',
+      '../img/green.jpg',
+      '../img/maison.jpg',
+      '../img/mer.jpg',
+      '../img/orange.jpg',
+      '../img/peinture_rose.jpg',
+    ]
+    
+  }
 
   },
 
