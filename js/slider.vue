@@ -5,7 +5,7 @@
             <img v-for="image in images" :src="image" class="slider-item">
         </div>
     </div>
-    
+
 </template>
 
 
