@@ -13,6 +13,7 @@ new Vue({
     navbar,
     like,
     slider,
+    slidershow,
  },
 
   data(){
