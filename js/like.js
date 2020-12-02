@@ -8,7 +8,6 @@ export default Vue.component("like", {
 
     data(){
         return{
-            counter : 345,
             isLiked : false,
             currentClass : "isNotLiked",
         }
@@ -23,12 +22,10 @@ export default Vue.component("like", {
     methods: {
         like(){
             if (this.isLiked === false){
-            this.counter += 1;
             this.currentClass = "liked";
             this.isLiked = true;
             localStorage.currentClass = this.currentClass;
             } else if(this.isLiked === true){
-                this.counter -= 1;
                 this.currentClass = "isNotLiked";
                 this.isLiked = false;
                 localStorage.currentClass = this.currentClass;            
