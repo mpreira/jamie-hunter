@@ -56,6 +56,7 @@ nav a{
 #app{
     position:relative;
     margin:0;
+    height:100%;
 }
 
 main{
@@ -67,8 +68,7 @@ main{
 .comm-image{
     display:flex;
     justify-content:space-between;
-    margin-bottom:30px;
-    margin-top:50px;
+    padding-top:80px;
 }
 
 .comments, .image{
