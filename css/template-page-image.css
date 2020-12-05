@@ -1,6 +1,7 @@
 /***********************
 ****    GENERAL    *****
 ***********************/
+
 *{
     box-sizing:border-box;
 }
@@ -14,11 +15,9 @@ body{
     color:#444;
     margin:0;
     padding:0;
+    font-family: 'Abhaya Libre', serif;
     height:100vh;
-}
-
-h1{
-    margin-left:20px;
+    overflow:hidden;
 }
 
 
@@ -28,25 +27,49 @@ h1{
 
 /* HEADER */
 
+.topnav{
+    background-color:#f8e2ce;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.topnav a {
+    color: #40739e;
+    font-size:20px;
+    text-decoration:none;
+}
+
+.topnav ul{
+    width:100%;
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.topnav ul li {
+    list-style-type: none;
+    margin-left:3em;
+    margin-right:1rem;
+}
+
 header{
+    margin-top:3rem;
+    margin-bottom:4rem;
+    padding-top:2rem;
     height:100px;
     background-color:#8eb4c8;
-    color:#fdfcfc;
-    display:flex;
-    justify-content:space-between;
-}
-
-header nav{
     display:flex;
     align-items:center;
-    padding-bottom: 10px;
-    margin-right:20px;
+
 }
 
-nav a{
-    text-decoration:none;
-    color:#fdfcfc;
-    padding:0 10px;
+h1{
+    margin:auto;
+    font-family: 'Alex Brush', cursive;
+    color:#f8e2ce;
+    font-weight:normal;
+    font-size:50px;
 }
 
 /* MAIN */
@@ -54,21 +77,19 @@ nav a{
 /* zone centrale */
 
 #app{
-    position:relative;
     margin:0;
     height:100%;
 }
 
 main{
 
-    height: calc(100vh - 100px)
+    height: calc(100vh - 200px)
 
 }
 
 .comm-image{
     display:flex;
     justify-content:space-between;
-    padding-top:80px;
 }
 
 .comments, .image{
@@ -92,12 +113,12 @@ main{
     height:auto;
 }
 
-/* like button */
 
+/* like button */
 .containerLike{
     position: absolute;
-    right: 20em;
-    top: 10em;
+    right: 16em;
+    top: 12em;
 }
 
 .btn{
