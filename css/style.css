@@ -22,6 +22,7 @@ body{
 .topnav a {
     color: #40739e;
     font-size:20px;
+    text-decoration:none;
 }
 .topnav ul{
 
@@ -40,9 +41,13 @@ body{
 
 header{
 
-    margin-top:5rem;
+    margin-top:3rem;
     margin-bottom:4rem;
     padding-top:2rem;
+    height:100px;
+    background-color:#8eb4c8;
+    display:flex;
+    align-items:center;
 
 }
 
@@ -57,6 +62,7 @@ header h1{
 
 /* MAIN */
 
+/*Grid sur la page index*/
 img{
 
     width:100%;
@@ -117,6 +123,66 @@ img{
    grid-row:7/11;
 
 }
+
+/*PAGE About*/
+
+main section{
+
+    height:90vh;
+
+}
+
+main section article{
+    display:flex;
+    height:90vh;
+
+}
+
+main section article img{
+
+    width:35%;
+    height:100%;
+    float:right;
+    padding-left:4rem;
+
+}
+
+main section article div{
+
+    width:50%;
+
+}
+
+main section article div blockquote{
+
+    font-family: 'Alex Brush', cursive;
+    color:#9C4848;
+    width:100%;
+    margin-top:20%;
+    margin-left:0;
+    font-size:30px;
+    text-align:center;
+
+}
+
+main section article div p{
+
+ margin-top:2rem;
+ font-size:18px;
+ padding-left:2em;
+
+}
+
+main section article div span{
+
+    display:flex;
+    flex-direction:row-reverse;
+    margin-top:32%;
+    margin-left:3rem;
+}
+
+
+
 /* FOOTER */
 footer{
 
@@ -126,40 +192,72 @@ footer{
    width:100%;
    color:white;
 
+
+
 }
 
 
 footer section{
 
-    padding-top:4rem;
-    padding-bottom:2rem;
-    margin-top:4rem;
-    height: auto;
+    /*padding-top:4rem;
+    padding-bottom:2rem;*/
+    height: 100%;
     display:flex;
-    justify-content: space-between;
+
+
 
 }
 
 footer section p{
-    margin-left:9rem;
+    margin-left:8rem;
+    height:15px;
 }
-footer section a{
+
+footer section article:nth-child(1){
+
+    height:20vh;
+    width:60%;
+    padding-top:2%;
+    display:flex;
+    flex-direction:column;
+}
+footer section article:nth-child(1) a{
 
     text-decoration: none;
     color:white;
-    margin-left:4em;
+    margin-left:3em;
+    height:20px;
+    width:80%;
+
+
+}
+
+footer section article:nth-child(2){
+
+    height:20vh;
+    width:38%;
+    display:flex;
+    margin-top:1em;
+    padding-left:8rem;
+
 
 }
 
 
 footer section .fab{
 
-   padding-top:3rem;
-   margin-right:3em;
-   transform: scale(1.5);
+   /*padding-top:3rem;*/
+   margin-right:1em;
+   height:20px;
+   width:20px;
+   transform: scale(1.7);
    color:white;
 
+   display:flex;
+   margin: auto 2em ;
+
 }
+
 
 
 /****************************

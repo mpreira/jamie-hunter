@@ -1,8 +1,9 @@
 import grid from "./grid.js";
 import navbar from "./navbar.js";
+import foot from "./footer.js";
 import like from "./like.js";
 import slider from './slider.js';
-import slidershow from'./slider.vue';
+//import slidershow from'./slider.vue';
 
 new Vue({
 
@@ -11,13 +12,14 @@ new Vue({
   components: {
     grid,
     navbar,
+    foot,
     like,
     slider,
-    slidershow,
+    //slidershow,
  },
 
   data(){
-    
+
   return{
 
     images:[
@@ -31,7 +33,7 @@ new Vue({
       '../img/orange.jpg',
       '../img/peinture_rose.jpg',
     ]
-    
+
   }
 
   },
