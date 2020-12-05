@@ -68,6 +68,7 @@ main{
     display:flex;
     justify-content:space-between;
     margin-bottom:30px;
+    margin-top:50px;
 }
 
 .comments, .image{
@@ -137,7 +138,7 @@ main{
 }
 
 .slideImages{
-    height:97%;
+    height:48%;
     width:13%;
     overflow:hidden;
     object-fit:cover;
@@ -148,14 +149,11 @@ main{
     padding-left:10px;
     padding-right:10px;
     filter: grayscale(90%);
-    transition: filter transform 2.5s;
+    transition: all 2.5s;
 }
 
 .slideImages:hover{
-
     filter:grayscale(0);
-    transform: scale(1.5);
-
 }
 
 
