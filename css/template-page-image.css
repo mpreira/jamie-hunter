@@ -113,80 +113,12 @@ main{
     height:auto;
 }
 
-/* comments */
-.containerComment{
-    margin: 5em 0 5em 0;
-    width: 75em;
-    height: 25em;
-    font-family: sans-serif;
-    /*box-shadow: 0 10px 15px rgba(0, 0, 0, 0.123);*/
-    border:1px solid #ececec;
-    position: absolute;
-    bottom: 7em;
-    width:40%;
-}
-
-.containerMessage{
-    border: none;
-    height: 90%;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    padding: 1em;
-    scroll-behavior: smooth;
-    overflow-x: auto;
-}
-
-.containerBtnMessage{
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    height: 10%;
-}
-
-.timeStyle{
-    font-size: 0.7em;
-    color: white;
-    background: rgb(209, 209, 209);
-    padding: 0.5em;
-    border-radius: 2em;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.082);
-}
-
-.pseudoStyle{
-    font-weight: 700;
-}
-
-.inputPseudoStyle{
-    width: 30%;
-    border: none;
-    background: rgb(238, 238, 238);
-    padding: 0.5em;
-    height: 100%;
-}
-
-.inputMessageStyle{
-    width: 50%;
-    border: none;
-    background: rgb(238, 238, 238);
-    padding: 0.5em;
-    height: 100%;
-}
-
-.btnStyle{
-    width: 20%;
-    height: 100%;
-    border: none;
-    padding: 0.5em;
-    font-weight: 800;
-    text-transform: uppercase;
-    background: #8eb4c8;
-    color: white;
-}
 
 /* like button */
 .containerLike{
-    padding: 10px 20px 0 0;
+    position: absolute;
+    right: 16em;
+    top: 12em;
 }
 
 .btn{
@@ -206,18 +138,13 @@ main{
 
 /* slider */
 
-.slider{
-    height:150px;
-    padding:15px;
-    position:absolute;
-    width:70%;
-    bottom:0;
-    overflow:hidden;
+/* .slidershow{
+
 }
 
-.slideImages{
+.slidershow-item{
     height:98%;
-    width:10%;
+    width:11%;
     overflow:hidden;
     object-fit:cover;
     object-position: center center;
@@ -227,13 +154,48 @@ main{
     padding-left:10px;
     padding-right:10px;
     filter: grayscale(90%);
-    transition: all 1.5s;
-    opacity:0.5;
+    transition: all 2.5s;
+}*/
+
+.slider{
+    height:150px;
+    padding:15px;
+    position:absolute;
+    width:70%;
+    bottom:0;
+    overflow:hidden;
+}
+
+.slider::after {
+    content: "";
+    position:absolute;
+    margin:-20px;
+    width:150px;
+    height:150px;
+    transform:rotate(-45deg);
+    right:-55px;
+    top:-57px;
+    box-shadow:0 0 0 1030px #e7cdd2;
+}
+
+.slideImages{
+    height:98%;
+    width:5%;
+    overflow:hidden;
+    object-fit:cover;
+    object-position: center center;
+    position:relative;
+    z-index:1;
+    display:inline-block;
+    padding-left:10px;
+    padding-right:10px;
+    filter: grayscale(90%);
+    transition: all 2.5s;
 }
 
 .slideImages:hover{
     filter:grayscale(0);
-    opacity:1;
+    width:30%;
 }
 
 
