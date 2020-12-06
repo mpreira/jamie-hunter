@@ -26,50 +26,56 @@ body{
 *****************************/
 
 /* HEADER */
-
-.topnav{
-    background-color:#f8e2ce;
+.topnav {
+    background-color: #f7d6cc;
     display: flex;
     position: absolute;
     width: 100%;
     top: 0;
+    padding-right: 10px;
 }
 
 .topnav a {
-    color: #40739e;
-    font-size:20px;
-    text-decoration:none;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 5px;
 }
 
-.topnav ul{
-    width:100%;
-    display:flex;
+.topnav a:hover {
+    background-color: #fff;
+    color: #F8E2CE;
+}
+
+.topnav ul {
+    width: 100%;
+    display: flex;
     flex-direction: row-reverse;
 }
 
 .topnav ul li {
     list-style-type: none;
-    margin-left:3em;
-    margin-right:1rem;
+    margin-left: 3em;
+    margin-right: 1rem;
 }
 
 header{
-    margin-top:3rem;
-    margin-bottom:4rem;
-    padding-top:2rem;
-    height:100px;
-    background-color:#8eb4c8;
-    display:flex;
-    align-items:center;
-
+    margin: 3em 0;
+    padding-top: 2rem;
+    height: 100px;
+    background-color: #8eb4c8;
+    display: flex;
+    align-items: center;
 }
 
-h1{
-    margin:auto;
+header h1{
+
+    margin: auto;
     font-family: 'Alex Brush', cursive;
-    color:#f8e2ce;
-    font-weight:normal;
-    font-size:50px;
+    color: #f7d6cc;
+    font-weight: normal;
+    font-size: 50px;
 }
 
 /* MAIN */
