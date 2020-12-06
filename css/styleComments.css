@@ -2,27 +2,29 @@
     box-sizing: border-box;
 }
 .containerComment{
-    width: 30em;
-    height: 40em;
+    margin: 5em 0 5em 0;
+    width: 75em;
+    height: 25em;
     font-family: sans-serif;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.144);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.123);
+    position: absolute;
+    bottom: 7em;
 }
 .containerMessage{
     border: none;
-    height: 95%;
+    height: 90%;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
     padding: 1em;
-
     scroll-behavior: smooth;
-    overflow-y: auto;
+    overflow-x: auto;
 }
 .containerBtnMessage{
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    height: 5%;
+    height: 10%;
 }
 .timeStyle{
     font-size: 0.7em;
