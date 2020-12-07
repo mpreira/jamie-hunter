@@ -190,8 +190,6 @@ footer{
    width:100%;
    color:white;
 
-
-
 }
 
 
@@ -201,8 +199,6 @@ footer section{
     padding-bottom:2rem;*/
     height: 100%;
     display:flex;
-
-
 
 }
 
@@ -250,12 +246,75 @@ footer section .fab{
    width:20px;
    transform: scale(1.7);
    color:white;
-
    display:flex;
    margin: auto 2em ;
 
 }
 
+/* PAGE CONTACT */
+.contact-sct {
+    display: flex;
+    height: 100%;
+    width: 90%;
+    margin: 8em auto;
+    color: #F8E2CE;
+}
+
+.contact-sct h2 {
+    color: #F8E2CE;
+}
+
+.contact-sct img {
+    max-width: 200px;
+    object-fit: contain;
+}
+
+.contact-img-1 img {
+    object-position: top;
+
+}
+
+.contact-img-2 img {
+    object-position: bottom;
+}
+
+.mailform {
+    width: 100%;
+    display: flex;
+}
+
+.mailform form {
+    background-color: #8eb4c8;
+    width: 80%;
+    margin: auto;
+    padding: 0.5em 2em 2em 2em;
+}
+
+.contact-inputs {
+    text-align: center;
+}
+
+.mailform form input, textarea, #sbmt-btn {
+    width: 80%;
+    resize: none;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    font-family: 'Abhaya Libre', serif;
+    background-color: #f4fcff;
+}
+
+textarea {
+  font-size: 1.4rem;
+}
+
+#sbmt-btn {
+    text-align: center;
+}
+
+#sbmt-btn:hover {
+    background-color: #F8E2CE;
+}
 
 
 /****************************
@@ -264,13 +323,313 @@ footer section .fab{
 
 /* tablette */
 @media screen and (min-width:480px) and (max-width:960px){
-    /* css */
+    .img3{
+   grid-column:5/7;
+   grid-row:1/7;
+}
+
+.img4{
+   grid-column:1/3;
+   grid-row:6/9;
+}
+
+.img5{
+   grid-column:3/5;
+   grid-row:6/11;
+}
+
+.img6{
+   grid-column:5/7;
+   grid-row:7/10;
+}
+
+footer{
+
+   margin-top:8rem;
+   background-color:#8EB4C8;
+   height:25vh;
+   width:100%;
+   color:white;
+
+
+
+}
+
+
+footer section{
+
+    /*padding-top:4rem;
+    padding-bottom:2rem;*/
+    height: 100%;
+    display:flex;
+
+}
+
+footer section p{
+
+    height:15px;
+    margin-top:4rem;
+}
+
+footer section article:nth-child(1){
+
+    height:20vh;
+    width:60%;
+    padding-top:2%;
+    display:flex;
+    flex-direction:column;
+
+}
+footer section article:nth-child(1) a{
+
+    text-decoration: none;
+    color:white;
+    margin-left:3em;
+    height:20px;
+    width:80%;
+
+
+}
+
+footer section article:nth-child(2){
+
+    height:20vh;
+    width:40%;
+    display:flex;
+    padding-left:8rem;
+
+
+}
+
+footer section article:nth-child(1) a:nth-child(3){
+    margin-top:3rem;
+
+}
+
+
+footer section .fab{
+
+   /*padding-top:3rem;*/
+   margin-right:4em;
+   height:20px;
+   width:20px;
+   transform: scale(1.7);
+   color:white;
+   display:flex;
+   margin: auto 1em ;
+
+}
+
+/*PAGE About*/
+main section article img{
+
+    width:45%;
+    height:100%;
+    float:right;
+    padding-left:4rem;
+
+}
+
+
 }
 
 /* mobile */
 @media screen and (max-width:480px){
 
+    /* MAIN */
+.img1{
+    grid-column:1/4;
+    grid-row:3/6;
 }
+
+.img2{
+   grid-column:4/7;
+   grid-row:2/6;
+}
+
+
+.img3{
+   grid-column:1/4;
+   grid-row:6/9;
+}
+
+.img4{
+   grid-column:4/7;
+   grid-row:6/9;
+}
+
+.img5{
+   grid-column:1/4;
+   grid-row:9/11;
+}
+
+.img6{
+   grid-column:4/7;
+   grid-row:9/12;
+}
+
+/* FOOTER */
+
+footer{
+
+   margin-top:8rem;
+   background-color:#8EB4C8;
+   height:25vh;
+   width:100%;
+   color:white;
+
+}
+
+
+footer section{
+
+    /*padding-top:4rem;
+    padding-bottom:2rem;*/
+    height: 100%;
+    display:flex;
+}
+
+footer section p{
+    margin-top: 4rem;
+    margin-left:5rem;
+    height:15px;
+}
+
+footer section article:nth-child(1){
+
+    height:20vh;
+    width:60%;
+    padding-top:2%;
+    display:flex;
+    flex-direction:column;
+}
+footer section article:nth-child(1) a{
+
+    text-decoration: none;
+    color:white;
+    margin-left:3em;
+    height:20px;
+    width:80%;
+
+}
+
+footer section article:nth-child(1) a:nth-child(3){
+    margin-top:6rem;
+
+}
+
+footer section article:nth-child(2){
+
+    height:20vh;
+    width:38%;
+    display:flex;
+    flex-direction:column;
+    margin-top:1em;
+    padding-left:8rem;
+
+}
+
+
+footer section .fab{
+
+   /*padding-top:3rem;*/
+   margin-right:1em;
+   height:20px;
+   width:20px;
+   transform: scale(1.7);
+   color:white;
+
+   display:flex;
+   margin: auto 2em ;
+
+}
+
+/*PAGE About*/
+main section article img{
+
+    width:50%;
+    height:100%;
+    float:right;
+    padding-left:4rem;
+
+}
+
+main section article div blockquote{
+
+    font-family: 'Alex Brush', cursive;
+    color:#9C4848;
+    width:100%;
+    margin-top:20%;
+    padding-left:1em;
+    font-size:30px;
+    text-align:center;
+
+}
+
+/*PAGE contact*/
+.contact-img-1 img {
+    object-position: top;
+    width:50%;
+    height:50%;
+}
+
+.contact-img-2 img {
+    object-position: bottom;
+    width:50%;
+    margin-left:3em;
+}
+
+.mailform {
+    width: 100%;
+    display: flex;
+    height:70%;
+
+}
+
+form h2{
+
+    text-align:center;
+}
+
+.mailform form {
+    background-color: #8eb4c8;
+    width: 100%;
+    margin: auto;
+    padding: 0.5em 2em 2em 2em;
+}
+
+.contact-inputs {
+    text-align: center;
+}
+
+.mailform form input, textarea, #sbmt-btn {
+    width: 90%;
+    resize: none;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    text-align:center;
+    font-family: 'Abhaya Libre', serif;
+    background-color: #f4fcff;
+}
+
+textarea {
+  font-size: 1.4rem;
+  height:80%;
+}
+
+#sbmt-btn {
+    text-align: center;
+}
+
+#sbmt-btn:hover {
+    background-color: #F8E2CE;
+}
+
+
+}
+
+
 /***********************
 ****    GENERAL    *****
 ***********************/
@@ -280,21 +639,3 @@ footer section .fab{
 *****************************/
 
 /* HEADER */
-
-/* MAIN */
-
-/* FOOTER */
-
-/****************************
-****    MEDIA QUERIES   *****
-****************************/
-
-/* tablette */
-@media screen and (min-width:480px) and (max-width:960px){
-    /* css */
-}
-
-/* mobile */
-@media screen and (max-width:480px){
-
-}
