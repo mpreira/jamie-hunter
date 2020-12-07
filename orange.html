@@ -10,6 +10,10 @@
 
         <!-- FONT AWESOME -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+        <!-- FONTS -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
         <!-- CSS -->
         <link rel="stylesheet" href="css/template-page-image.css">
 
@@ -23,67 +27,71 @@
         <header>
 
             <h1>Jamie Hunter</h1>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-            </nav>
+
         </header>
 
         <main>
             
             <div id="app">
                 
-                <div class="comm-image">
-
-                    <div class="comments">
-                        <h2>Titre en gros</h2>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nisi similique delectus nam quis repellendus iste enim. Odit accusamus quia expedita tempore ab illo magnam praesentium voluptatem dolor, necessitatibus quis?
+                <!-- NAVBAR -->
+                <navbar></navbar>
+                
+                <section>
+                    
+                    <div class="comm-image">
+    
+                        <div class="comments">
+                            <comments></comments>
+                        </div>
+                    
+                        <div class="image">
+                            
+                            <!--like button-->
+                            <div class="containerLike ajust">
+                                <like></like>
+                            </div>
+                            
+                            <img src="img/orange.jpg" class="orange" alt="photo à venir"/>
+                            
+                        </div>
+    
                     </div>
-                    
-                    <!--like button-->
-                    
-                    <div class="containerLike">
-                        <like></like>
+    
+                    <div class="slider">
+                        
+                        <a href="archi.html" target="_blank">
+                            <img src="img/archi.jpg" class="slideImages" alt="archi">
+                        </a>
+                        
+                        <a href="cactus.html" target="_blank"><img src="img/cactus.jpg" class="slideImages" alt="cactus"/></a>
+                        
+                        <a href="car.html" target="_blank"><img src="img/car.jpg" class="slideImages" alt="car"/></a>
+                        
+                        <a href="flamant.html" target="_blank"><img src="img/flamant.jpg" class="slideImages" alt="flamant"/></a>
+                        
+                        <a href="green.html" target="_blank"><img src="img/green.jpg" class="slideImages" alt="green" /></a>
+                        
+                        <a href="maison.html" target="_blank"><img src="img/maison.jpg" class="slideImages" alt="maison" /></a>
+                        
+                        <a href="mer.html" target="_blank"><img src="img/mer.jpg" class="slideImages" alt="mer" /></a>
+                        
+                        <a href="orange.html" target="_blank"><img src="img/orange.jpg" class="slideImages" alt="orange" /></a>
+                        
+                        <a href="peinturerose.html" target="_blank"><img src="img/peinture_rose.jpg" class="slideImages" alt="peinture rose" /></a>
+                        
                     </div>
                 
-                    <div class="image">
-                        <img src="img/peinture_rose.jpg" alt="photo à venir"/>
-                    </div>
-
-                </div>
-                
-                <div class="slider">
-                    <a href="#" target="_blank">
-                        <img src="img/archi.jpg" class="slideImages" alt="archi">
-                    </a>
-                    
-                    <a href="#" target="_blank"><img src="img/cactus.jpg" class="slideImages" alt="cactus"/></a>
-                    
-                    <a href="#" target="_blank"><img src="img/car.jpg" class="slideImages" alt="car"/></a>
-                    
-                    <a href="#" target="_blank"><img src="img/flamant.jpg" class="slideImages" alt="flamant"/></a>
-                    
-                    <a href="#" target="_blank"><img src="img/green.jpg" class="slideImages" alt="green" /></a>
-                    
-                    <a href="#" target="_blank"><img src="img/maison.jpg" class="slideImages" alt="maison" /></a>
-                    
-                    <a href="#" target="_blank"><img src="img/mer.jpg" class="slideImages" alt="mer" /></a>
-                    
-                    <a href="#" target="_blank"><img src="img/orange.jpg" class="slideImages" alt="orange" /></a>
-                    
-                    <a href="#" target="_blank"><img src="img/peinture_rose.jpg" class="slideImages" alt="peinture rose" /></a>
-                    
-                </div>
+                </section>
                 
             </div>
             
         </main>
         
         <!-- script Vue.js -->
-        
          <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
         <script type="module" src="js/script.js"></script>
+
     </body>
     
 </html>

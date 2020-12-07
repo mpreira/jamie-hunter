@@ -26,50 +26,56 @@ body{
 *****************************/
 
 /* HEADER */
-
-.topnav{
-    background-color:#f8e2ce;
+.topnav {
+    background-color: #f7d6cc;
     display: flex;
     position: absolute;
     width: 100%;
     top: 0;
+    padding-right: 10px;
 }
 
 .topnav a {
-    color: #40739e;
-    font-size:20px;
-    text-decoration:none;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 5px;
 }
 
-.topnav ul{
-    width:100%;
-    display:flex;
+.topnav a:hover {
+    background-color: #fff;
+    color: #F8E2CE;
+}
+
+.topnav ul {
+    width: 100%;
+    display: flex;
     flex-direction: row-reverse;
 }
 
 .topnav ul li {
     list-style-type: none;
-    margin-left:3em;
-    margin-right:1rem;
+    margin-left: 3em;
+    margin-right: 1rem;
 }
 
 header{
-    margin-top:3rem;
-    margin-bottom:4rem;
-    padding-top:2rem;
-    height:100px;
-    background-color:#8eb4c8;
-    display:flex;
-    align-items:center;
-
+    margin: 3em 0;
+    padding-top: 2rem;
+    height: 100px;
+    background-color: #8eb4c8;
+    display: flex;
+    align-items: center;
 }
 
-h1{
-    margin:auto;
+header h1{
+
+    margin: auto;
     font-family: 'Alex Brush', cursive;
-    color:#f8e2ce;
-    font-weight:normal;
-    font-size:50px;
+    color: #f7d6cc;
+    font-weight: normal;
+    font-size: 50px;
 }
 
 /* MAIN */
@@ -109,16 +115,83 @@ main{
 }
 
 .image img{
-    max-width:50%;
     height:auto;
 }
 
+/* comments */
+.containerComment{
+    margin: 5em 0 5em 0;
+    width: 75em;
+    height: 27em;
+    font-family: sans-serif;
+    /*box-shadow: 0 10px 15px rgba(0, 0, 0, 0.123);*/
+    border:1px solid #ececec;
+    position: absolute;
+    bottom: 7em;
+    width:40%;
+}
+
+.containerMessage{
+    border: none;
+    height: 90%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 1em;
+    scroll-behavior: smooth;
+    overflow-x: auto;
+}
+
+.containerBtnMessage{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 10%;
+}
+
+.timeStyle{
+    font-size: 0.7em;
+    color: white;
+    background: rgb(209, 209, 209);
+    padding: 0.5em;
+    border-radius: 2em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.082);
+}
+
+.pseudoStyle{
+    font-weight: 700;
+}
+
+.inputPseudoStyle{
+    width: 30%;
+    border: none;
+    background: rgb(238, 238, 238);
+    padding: 0.5em;
+    height: 100%;
+}
+
+.inputMessageStyle{
+    width: 50%;
+    border: none;
+    background: rgb(238, 238, 238);
+    padding: 0.5em;
+    height: 100%;
+}
+
+.btnStyle{
+    width: 20%;
+    height: 100%;
+    border: none;
+    padding: 0.5em;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: #8eb4c8;
+    color: white;
+}
 
 /* like button */
 .containerLike{
-    position: absolute;
-    right: 16em;
-    top: 12em;
+    padding: 10px 20px 0 0;
 }
 
 .btn{
@@ -136,26 +209,24 @@ main{
     color: #e7cdd2;
 }
 
-/* slider */
+/* POSITIONNEMENT IMAGES */
 
-/* .slidershow{
-
+.cactus, .flamant, .green, .mer, .orange{
+    position:relative;
+    top:150px;
+    max-width:70%;
 }
 
-.slidershow-item{
-    height:98%;
-    width:11%;
-    overflow:hidden;
-    object-fit:cover;
-    object-position: center center;
+.archi, .car, .maison, .peintureRose{
+    max-width:50%;
+}
+
+.ajust{
     position:relative;
-    z-index:1;
-    display:inline-block;
-    padding-left:10px;
-    padding-right:10px;
-    filter: grayscale(90%);
-    transition: all 2.5s;
-}*/
+    top:150px;
+}
+
+/* slider */
 
 .slider{
     height:150px;
@@ -166,21 +237,9 @@ main{
     overflow:hidden;
 }
 
-.slider::after {
-    content: "";
-    position:absolute;
-    margin:-20px;
-    width:150px;
-    height:150px;
-    transform:rotate(-45deg);
-    right:-55px;
-    top:-57px;
-    box-shadow:0 0 0 1030px #e7cdd2;
-}
-
 .slideImages{
     height:98%;
-    width:5%;
+    width:10%;
     overflow:hidden;
     object-fit:cover;
     object-position: center center;
@@ -190,12 +249,13 @@ main{
     padding-left:10px;
     padding-right:10px;
     filter: grayscale(90%);
-    transition: all 2.5s;
+    transition: all 1.5s;
+    opacity:0.5;
 }
 
 .slideImages:hover{
     filter:grayscale(0);
-    width:30%;
+    opacity:1;
 }
 
 
